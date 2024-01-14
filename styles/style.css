@@ -52,6 +52,8 @@
 }
 
 .header__theme-menu-button:hover {
+  outline: 1px solid currentColor;
+  outline-offset: 1px;
   border-color: var(--hover-color);
 }
 
@@ -63,12 +65,16 @@
   border-block-end-color: currentColor;
 }
 
+.header__theme-menu-button:focus {
+  border-bottom: 1px solid currentColor;
+}
+
 .decorated-zone {
   position: relative;
 }
 
 .decorated-zone::before {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 1;
   inline-size: 25px;
@@ -80,7 +86,7 @@
 }
 
 .decorated-zone::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 1;
   inline-size: 25px;
@@ -119,7 +125,7 @@
 }
 
 .page__title {
-  color: var(--title-color-base, #DB00FF);
+  color: var(--title-color-base, #db00ff);
   text-shadow: 4px 4px 0px var(--head-color, #ff0070);
   font-family: var(--main-font);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -235,127 +241,126 @@ a:focus-visible {
 }
 
 @media (width >= 768px) {
-
   .page__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+      font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .rec-decor {
-    inset-inline-end: 29px;
-    inset-block-start: 20px;
+      inset-inline-end: 29px;
+      inset-block-start: 20px;
   }
 
   .header {
-    padding-inline-start: 0;
+      padding-inline-start: 0;
   }
 
   .header__description {
-    justify-self: end;
-    inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
+      justify-self: end;
+      inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
   }
 
   .header__theme-menu {
-    margin-block-start: 180px;
+      margin-block-start: 180px;
   }
 
   .content-list {
-    display: grid;
-    gap: 20px;
-    grid-template-rows: repeat(3, minmax(min-content, max-content));
-    grid-template-columns: repeat(3, minmax(min-content, max-content));
-    grid-template-areas: 
-    "a a b"
-    "c d b"
-    "c e e";
+      display: grid;
+      gap: 20px;
+      grid-template-rows: repeat(3, minmax(min-content, max-content));
+      grid-template-columns: repeat(3, minmax(min-content, max-content));
+      grid-template-areas:
+          "a a b"
+          "c d b"
+          "c e e";
   }
 
   .image-item-sea {
-    grid-area: a;
+      grid-area: a;
   }
-  
+
   .image-item-icecream {
-    grid-area: b;
+      grid-area: b;
   }
-  
+
   .image-item-cassette {
-    grid-area: c;
+      grid-area: c;
   }
-  
+
   .image-item-books {
-    grid-area: d;
+      grid-area: d;
   }
-  
+
   .image-item-street {
-    grid-area: e;
+      grid-area: e;
   }
-  
+
   .section-why {
-    display: grid;
-    grid-template-columns: 236px auto;
+      display: grid;
+      grid-template-columns: 236px auto;
   }
-  
+
   .title-what {
-    max-inline-size: 236px;
+      max-inline-size: 236px;
   }
-  
+
   .section-how {
-    display: grid;
-    grid-template-columns: 236px auto;
+      display: grid;
+      grid-template-columns: 236px auto;
   }
-  
+
   .section-how__article-list {
-    grid-column-start: 2;
+      grid-column-start: 2;
   }
-  
+
   .section-content {
-    display: grid;
-    gap: 20px;
+      display: grid;
+      gap: 20px;
   }
 
   .main {
-    gap: 80px;
-    padding: 60px 20px;
+      gap: 80px;
+      padding: 60px 20px;
   }
 }
 
 @media (width >= 1024px) {
   .section-what__article-list {
-    grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
   }
 
   .header__theme-menu {
-    display: flex;
-    justify-self: center;
-    align-self: start;
-    margin-block-start: 0;
-    margin-block-end: 273px;
-    margin-inline-start: 18px;
-    gap: 23px;
+      display: flex;
+      justify-self: center;
+      align-self: start;
+      margin-block-start: 0;
+      margin-block-end: 273px;
+      margin-inline-start: 18px;
+      gap: 23px;
   }
 
   .header__theme-menu-list {
-    flex-direction: row;
+      flex-direction: row;
   }
-  
+
   .header__description {
-    margin-block: 112px;
+      margin-block: 112px;
   }
 
   .section-why {
-    display: grid;
-    grid-template-columns: 315px auto;
+      display: grid;
+      grid-template-columns: 315px auto;
   }
 
   .section-how {
-    display: grid;
-    grid-template-columns: 315px auto;
+      display: grid;
+      grid-template-columns: 315px auto;
   }
 
   .title-what {
-    max-inline-size: 315px;
+      max-inline-size: 315px;
   }
 
   .section-how__article-list {
-    grid-column-start: 2;
+      grid-column-start: 2;
   }
 }

@@ -12,18 +12,18 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    background-image: url(../images/cover-image-dark.png);
-    --bg-decor-color: var(--color-black-rich);
-    --background-color: var(--color-black-rich);
-    --text-color: var(--color-pink-medium);
-    --head-color: var(--color-pink);
-    --hover-color: var(--color-cherry);
-    --title-color-base: var(--color-pink-purple);
-    --navigation-color: var(--color-pink);
-    --color-decor: var(--color-pink);
-}
+      background-image: url(../images/cover-image-dark.png);
+      --bg-decor-color: var(--color-black-rich);
+      --background-color: var(--color-black-rich);
+      --text-color: var(--color-pink-medium);
+      --head-color: var(--color-pink);
+      --hover-color: var(--color-cherry);
+      --title-color-base: var(--color-pink-purple);
+      --navigation-color: var(--color-pink);
+      --color-decor: var(--color-pink);
+  }
 
-.page.theme_auto {
-  background-image: url(../images/cover-image-dark.png);
-}
+  .page.theme_auto {
+      background-image: url(../images/cover-image-dark.png);
+  }
 }
