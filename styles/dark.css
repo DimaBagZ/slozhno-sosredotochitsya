@@ -4,7 +4,7 @@
   --background-color: var(--color-black-rich);
   --text-color: var(--color-pink-medium);
   --head-color: var(--color-pink);
-  --hover-color: var(--color-cherry);
+  --hover-color: var(--hover-color-dark);
   --title-color-base: var(--color-pink-purple);
   --navigation-color: var(--color-pink);
   --color-decor: var(--color-pink);
@@ -17,7 +17,7 @@
       --background-color: var(--color-black-rich);
       --text-color: var(--color-pink-medium);
       --head-color: var(--color-pink);
-      --hover-color: var(--color-cherry);
+      --hover-color: var(--hover-color-dark);
       --title-color-base: var(--color-pink-purple);
       --navigation-color: var(--color-pink);
       --color-decor: var(--color-pink);

@@ -5,7 +5,8 @@
   --bg-decor-color: #000028;
   --text-color: #f1b2ce;
   --head-color: #ff0070;
-  --hover-color: #ff007040;
+  --hover-color-light: rgba(50, 49, 45, 0.40);
+  --hover-color-dark: rgba(255, 0, 112, 0.40);
   --title-color-base: #db00ff;
   --navigation-color: #353430;
   --description-color: #ff8dcb;
