@@ -1,5 +1,4 @@
-https://github.com/DimaBagZ/
-slozhno-sosredotochitsya.git
+https://github.com/DimaBagZ/slozhno-sosredotochitsya.git
 
 # slozhno-sosredotochitsya
 
@@ -75,14 +74,22 @@ npx serve .
 ## Скриншоты
 
 ### Темная тема (Неон)
+<img width="514" height="361" alt="Header" src="https://github.com/user-attachments/assets/c7f15371-1286-407b-a95c-1be8e597ffe2" />
+<img width="529" height="611" alt="image" src="https://github.com/user-attachments/assets/9cd1f115-0176-45e4-9f9d-aae2e71e9a35" />
+
+<img width="462" height="798" alt="image" src="https://github.com/user-attachments/assets/98b34d38-013a-40d5-a8ef-23866e34adfd" />
 
 _Интерфейс в темной теме с неоновыми акцентами_
 
 ### Светлая тема (День)
+<img width="514" height="361" alt="Header (1)" src="https://github.com/user-attachments/assets/b016c5cb-885e-44b3-976a-14d2e8a5deaf" />
 
 _Интерфейс в светлой теме с мягкими цветами_
 
 ### Адаптивная верстка
+<img width="375" height="668" alt="Header (2)" src="https://github.com/user-attachments/assets/c90fc40c-a2cd-4a7d-93bd-2e05e9c99253" />
+<img width="375" height="668" alt="Header (3)" src="https://github.com/user-attachments/assets/85574d8b-f966-43eb-9963-d9df15d371c0" />
+<img width="149" height="673" alt="image" src="https://github.com/user-attachments/assets/46af7f90-3ceb-4092-8129-095a95f83279" />
 
 _Адаптивное отображение на разных устройствах_
 
